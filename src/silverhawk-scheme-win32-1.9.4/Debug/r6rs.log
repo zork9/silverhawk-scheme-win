@@ -1,0 +1,13 @@
+﻿Build started 7/11/2016 10:07:29 AM.
+     1>Project "C:\Users\goon\scheme\silverhawk-scheme-1.9.3\r6rs.vcxproj" on node 3 (Build target(s)).
+     1>Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"r6rs.dll" /INCREMENTAL /NOLOGO scheme48vm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\goon\scheme\silverhawk-scheme-1.9.3\r6rs.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\goon\scheme\silverhawk-scheme-1.9.3\r6rs.lib" /MACHINE:X86 /SAFESEH /export:s48_on_load /DLL Debug\ieee_bytevect.obj
+         Debug\r6rs_externals.obj
+     1>ieee_bytevect.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+            Creating library C:\Users\goon\scheme\silverhawk-scheme-1.9.3\r6rs.lib and object C:\Users\goon\scheme\silverhawk-scheme-1.9.3\r6rs.exp
+         r6rs.vcxproj -> C:\Users\goon\scheme\silverhawk-scheme-1.9.3\r6rs.dll
+     1>Done Building Project "C:\Users\goon\scheme\silverhawk-scheme-1.9.3\r6rs.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.85

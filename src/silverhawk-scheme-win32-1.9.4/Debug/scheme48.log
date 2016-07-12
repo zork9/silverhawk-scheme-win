@@ -1,0 +1,73 @@
+﻿Build started 7/11/2016 10:06:52 AM.
+     1>Project "C:\Users\goon\scheme\silverhawk-scheme-1.9.3\scheme48.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Ic/net /Ic/bibop /Ic/win32 /Ic /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _CONSOLE /D __COMPILING_SCHEME48_ITSELF__ /D "S48_HOST_ARCHITECTURE=\"i86-pc-win32\"" /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc110.pdb" /FR"Debug\\" /Gd /TC /analyze- /errorReport:prompt "c\scheme48vm-32.c"
+         scheme48vm-32.c
+     1>c:\users\goon\scheme\silverhawk-scheme-1.9.3\c\bibop\area_roots.h(40): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\goon\scheme\silverhawk-scheme-1.9.3\c\scheme48vm-32.c(4466): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\goon\scheme\silverhawk-scheme-1.9.3\c\scheme48vm-32.c(1445): warning C4700: uninitialized local variable 'v_228X' used
+     1>c:\users\goon\scheme\silverhawk-scheme-1.9.3\c\scheme48vm-32.c(8092): warning C4700: uninitialized local variable 'v_1147X' used
+     1>c:\users\goon\scheme\silverhawk-scheme-1.9.3\c\scheme48vm-32.c(8110): warning C4700: uninitialized local variable 'v_1152X' used
+     1>c:\users\goon\scheme\silverhawk-scheme-1.9.3\c\scheme48vm-32.c(8114): warning C4700: uninitialized local variable 'v_1153X' used
+     1>c:\users\goon\scheme\silverhawk-scheme-1.9.3\c\scheme48vm-32.c(8142): warning C4700: uninitialized local variable 'v_1154X' used
+     1>c:\users\goon\scheme\silverhawk-scheme-1.9.3\c\scheme48vm-32.c(8146): warning C4700: uninitialized local variable 'v_1155X' used
+     1>c:\users\goon\scheme\silverhawk-scheme-1.9.3\c\scheme48vm-32.c(8165): warning C4700: uninitialized local variable 'v_1157X' used
+     1>c:\users\goon\scheme\silverhawk-scheme-1.9.3\c\scheme48vm-32.c(8169): warning C4700: uninitialized local variable 'v_1158X' used
+     1>c:\users\goon\scheme\silverhawk-scheme-1.9.3\c\scheme48vm-32.c(8197): warning C4700: uninitialized local variable 'v_1159X' used
+     1>c:\users\goon\scheme\silverhawk-scheme-1.9.3\c\scheme48vm-32.c(8201): warning C4700: uninitialized local variable 'v_1160X' used
+     1>c:\users\goon\scheme\silverhawk-scheme-1.9.3\c\scheme48vm-32.c(8240): warning C4700: uninitialized local variable 'v_1161X' used
+     1>c:\users\goon\scheme\silverhawk-scheme-1.9.3\c\scheme48vm-32.c(8244): warning C4700: uninitialized local variable 'v_1162X' used
+     1>c:\users\goon\scheme\silverhawk-scheme-1.9.3\c\scheme48vm-32.c(8265): warning C4700: uninitialized local variable 'v_1165X' used
+     1>c:\users\goon\scheme\silverhawk-scheme-1.9.3\c\scheme48vm-32.c(8269): warning C4700: uninitialized local variable 'v_1166X' used
+     1>c:\users\goon\scheme\silverhawk-scheme-1.9.3\c\scheme48vm-32.c(8298): warning C4700: uninitialized local variable 'v_1167X' used
+     1>c:\users\goon\scheme\silverhawk-scheme-1.9.3\c\scheme48vm-32.c(8302): warning C4700: uninitialized local variable 'v_1168X' used
+     1>c:\users\goon\scheme\silverhawk-scheme-1.9.3\c\scheme48vm-32.c(14659): warning C4700: uninitialized local variable 'v_1853X' used
+     1>c:\users\goon\scheme\silverhawk-scheme-1.9.3\c\scheme48vm-32.c(14730): warning C4700: uninitialized local variable 'v_1862X' used
+     1>c:\users\goon\scheme\silverhawk-scheme-1.9.3\c\scheme48vm-32.c(21481): warning C4700: uninitialized local variable 'v_2709X' used
+       ResourceCompile:
+         C:\Program Files\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0710 /l"0x0409" /Ibuild /nologo /fo"scheme48.res" build\scheme48.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"scheme48vm.exe" /INCREMENTAL:NO /NOLOGO odbc32.lib odbccp32.lib ws2_32.lib mswsock.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug/scheme48vm.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\goon\scheme\silverhawk-scheme-1.9.3\scheme48vm.lib" /MACHINE:X86 /SAFESEH scheme48.res
+         .\Debug/address.obj
+         .\Debug/area_roots.obj
+         .\Debug/areas.obj
+         .\Debug/bignum.obj
+         .\Debug/check_heap.obj
+         .\Debug/double_to_string.obj
+         .\Debug/dynlink.obj
+         .\Debug/event.obj
+         .\Debug/extension.obj
+         ".\Debug/external-init.obj"
+         ".\Debug/external-lib.obj"
+         .\Debug/external.obj
+         ".\Debug/fd-io.obj"
+         .\Debug/ffi.obj
+         .\Debug/find_all.obj
+         .\Debug/free.obj
+         .\Debug/generation_gc.obj
+         .\Debug/glue.obj
+         .\Debug/init.obj
+         .\Debug/io.obj
+         .\Debug/main_win32.obj
+         .\Debug/memory_map.obj
+         .\Debug/misc.obj
+         .\Debug/net.obj
+         .\Debug/page_alloc.obj
+         .\Debug/remset.obj
+         ".\Debug/scheme48-bibop-heap-32.obj"
+         ".\Debug/scheme48vm-32.obj"
+         .\Debug/socket.obj
+         .\Debug/sysexits.obj
+         .\Debug/time.obj
+         ".\Debug/utf-8of16.obj"
+         .\Debug/utils.obj
+     1>address.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+            Creating library C:\Users\goon\scheme\silverhawk-scheme-1.9.3\scheme48vm.lib and object C:\Users\goon\scheme\silverhawk-scheme-1.9.3\scheme48vm.exp
+         scheme48.vcxproj -> C:\Users\goon\scheme\silverhawk-scheme-1.9.3\scheme48vm.exe
+       BscMake:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\bscmake.exe /nologo /o"C:\Users\goon\scheme\silverhawk-scheme-1.9.3\scheme48vm.bsc" Debug\address.sbr Debug\area_roots.sbr Debug\areas.sbr Debug\bignum.sbr Debug\check_heap.sbr Debug\double_to_string.sbr Debug\dynlink.sbr Debug\event.sbr Debug\extension.sbr "Debug\external-init.sbr" "Debug\external-lib.sbr" Debug\external.sbr "Debug\fd-io.sbr" Debug\ffi.sbr Debug\find_all.sbr Debug\free.sbr Debug\generation_gc.sbr Debug\glue.sbr Debug\init.sbr Debug\io.sbr Debug\main_win32.sbr Debug\memory_map.sbr Debug\misc.sbr Debug\net.sbr Debug\page_alloc.sbr Debug\remset.sbr "Debug\scheme48-bibop-heap-32.sbr" "Debug\scheme48vm-32.sbr" Debug\socket.sbr Debug\sysexits.sbr Debug\time.sbr "Debug\utf-8of16.sbr" Debug\utils.sbr
+     1>Done Building Project "C:\Users\goon\scheme\silverhawk-scheme-1.9.3\scheme48.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:32.60
